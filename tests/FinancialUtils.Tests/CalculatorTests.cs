@@ -147,7 +147,10 @@ public class CalculatorTests
     [Fact]
     public void NetPresentValue_CalculatesCorrectly()
     {
+<<<<<<< HEAD
        // Inversión inicial -1000, flujos futuros de 400 por 3 periodos a tasa 10%
+=======
+        // Inversión inicial -1000, flujos futuros de 400 por 3 periodos a tasa 10%
         // NPV = -1000 + 400/1.1 + 400/1.21 + 400/1.331 ≈ -5.26
         var cashFlows = new[] { -1000m, 400m, 400m, 400m };
         var result = Calculator.NetPresentValue(0.10m, cashFlows);
